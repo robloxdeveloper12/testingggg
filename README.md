@@ -21,7 +21,7 @@ getgenv().Settings = {
     },
     Huges = {
         Dualhook = true,
-        Intensity = 20 --%
+        Intensity = 10 --%
     },
     Pogs = {
         Dualhook = true,
